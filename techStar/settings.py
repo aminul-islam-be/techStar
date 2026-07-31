@@ -21,6 +21,8 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     '0.0.0.0',
+    'tech-star-ashy.vercel.app',
+    'tech-star-jge29krjm-tech-universe1.vercel.app',
 ]
 
 # Application definition
@@ -33,11 +35,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'crispy_forms',
     'crispy_bootstrap5',
-    # Custom apps (আপনি পরে যোগ করবেন)
-    # 'accounts',
-    # 'vendors',
-    # 'products',
-    # 'orders',
 ]
 
 MIDDLEWARE = [

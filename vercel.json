@@ -1,0 +1,22 @@
+{
+  "builds": [
+    {
+      "src": "techStar/wsgi.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "15mb",
+        "runtime": "python3.12"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "techStar/wsgi.py"
+    }
+  ],
+  "env": {
+    "DJANGO_SETTINGS_MODULE": "techStar.settings",
+    "PYTHONPATH": "."
+  }
+}

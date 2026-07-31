@@ -14,9 +14,5 @@
       "src": "/(.*)",
       "dest": "techStar/wsgi.py"
     }
-  ],
-  "env": {
-    "DJANGO_SETTINGS_MODULE": "techStar.settings",
-    "PYTHONPATH": "."
-  }
+  ]
 }
